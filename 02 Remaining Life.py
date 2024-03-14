@@ -25,5 +25,5 @@ weeks_left= dead_age_weeks- age_weeks
 days_left= dead_age_days- age_days
 
 # Print Caculations
-life_left= (f"You have {years_left} Years Left Which means;\n you have {days_left} Days, {weeks_left} weeks, and {months_left} months left.")
+life_left= (f"You have {years_left} Years Left Which means;\nyou have {days_left} Days, {weeks_left} weeks, and {months_left} months left.")
 print(life_left)
