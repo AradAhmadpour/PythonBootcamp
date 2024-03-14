@@ -1,0 +1,29 @@
+print("Welcome to Arad Pizza Shop")
+bill = 0
+# Get order from user
+size = input("What size of pizza do you want? S, M or L : ")
+add_pepperoni = input("Do you want pepperoni? Y or N : ")
+extra_cheese = input("Do you want extra cheese? Y or N :" )
+
+# Caculate Order Price
+if size == "S":
+    bill = 15
+    if add_pepperoni == "Y":
+        bill += 2
+    if extra_cheese == "Y":
+        bill += 1
+    print(f"Your order price is ${bill}")
+elif size == "M":
+    bill = 20
+    if add_pepperoni == "Y":
+        bill += 2
+    if extra_cheese == "Y":
+        bill += 1
+    print(f"Your order price is ${bill}")
+else:
+    bill = 25
+    if add_pepperoni == "Y":
+        bill += 3
+    if extra_cheese == "Y":
+        bill += 1
+    print(f"Your order price is ${bill}")
