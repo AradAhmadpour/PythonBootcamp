@@ -1,8 +1,8 @@
-fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
-vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+arad = "arad"
+ava = "ava"
+print(arad + ava)
 
-dirty_dozen = [fruits, vegetables]
-
-
-print(dirty_dozen[1][2])
-print(dirty_dozen[1][3])
+sum = 0
+for number in range(2, 101, 2):
+    sum += number
+print(sum)
