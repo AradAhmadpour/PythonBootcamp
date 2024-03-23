@@ -1,8 +1,8 @@
-arad = "arad"
-ava = "ava"
-print(arad + ava)
+# arad = "arad"
+# ava = "ava"
+# print(arad + ava)
 
-sum = 0
-for number in range(2, 101, 2):
-    sum += number
-print(sum)
+# sum = 0
+# for number in range(2, 101, 2):
+#     sum += number
+# print(sum)
